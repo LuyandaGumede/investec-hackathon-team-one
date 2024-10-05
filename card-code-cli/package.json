@@ -1,0 +1,34 @@
+{
+  "name": "investec-card-emu",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "card-emu": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "keywords": [
+    "investec",
+    "card",
+    "emulator",
+    "programmable banking",
+    "open banking",
+    "banking"
+  ],
+  "author": "Devin Pearson",
+  "license": "MIT",
+  "description": "An emulator for the Programmable Card Code Lamda function",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "programmable-card-code-emulator": "^1.2.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "3.0.3"
+  }
+}
